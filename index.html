@@ -7,9 +7,18 @@
 
   <title>To-Do list</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 
 </head>
 <body>
-  <p>To-do list</p>
+  <div id="heading" class="header">
+    <h1>My To-Do List</h1>
+    <input type="text" id="myInput" placeholder="add items here">
+    <button id="push" onclick="newElement()">Add</button>
+  </div>
+  
+  <ul id="list">
+  </ul>
+
 </body>
 </html>
